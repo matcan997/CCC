@@ -1,0 +1,38 @@
+/*Mathias Candia Feb.23 CS 125H - Lab 6*/
+body {
+	font-family: Helvetica, Arial, sans-serif;
+    font-size: 100%;
+}
+aside{
+	float:right;
+	margin-right:10rem;
+	width: 15rem;
+	position:static;
+	font-weight:bold;
+}
+aside ul{
+	font-weight:normal;
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+	border:1px solid black;
+	width: 10rem;
+}
+aside a:hover{
+	color:Darkgreen;
+}
+aside a:active{
+	color:Gold;
+}
+aside a{
+	display: block;
+	width:10rem;
+	background-color:lightgray;
+}
+aside li{
+	text-align:center;
+	border-bottom:1px solid black;
+}
+aside li:last-child{
+	border-bottom: none;
+}

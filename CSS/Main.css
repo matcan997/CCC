@@ -1,0 +1,62 @@
+/*Mathias Candia Feb.23 CS 125H - Lab 6*/
+body {
+	font-family: Helvetica, Arial, sans-serif;
+    font-size: 100%;
+	background-image: url(../images/unity3d-logo.png);
+	background-repeat: no-repeat;
+	background-position: left top;
+	background-size: 5rem 5rem;
+}
+header p a:hover{
+	color:Darkgreen;
+}
+.centerText{
+	text-align: center;
+}
+#copyright{
+	font-size:75%;
+}
+#gameCover{
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	width:15rem;
+	padding:0;
+	border:.25rem solid black;
+}
+aside{
+	float:right;
+	margin-right:10rem;
+	width: 15rem;
+	position:static;
+	font-weight:bold;
+}
+aside ul{
+	font-weight:normal;
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+	border:1px solid black;
+	width: 10rem;
+}
+aside a:hover{
+	color:Darkgreen;
+}
+aside a:active{
+	color:Gold;
+}
+aside a{
+	display: block;
+	width:10rem;
+	background-color:lightgray;
+}
+aside li{
+	text-align:center;
+	border-bottom:1px solid black;
+}
+aside li:last-child{
+	border-bottom: none;
+}
+footer{
+	clear:both;
+}
